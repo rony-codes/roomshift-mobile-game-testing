@@ -1,84 +1,126 @@
 # 🎮 RoomShift — Android Game Testing
 
-**A practical mobile game testing case study documenting 12 defects through exploratory testing.**
+**A practical mobile game testing case study documenting 12 findings through exploratory testing.**
 
-[![Platform](https://img.shields.io/badge/Platform-Android-green)](https://play.google.com/store/apps/details?id=in.raglic.roomshift)
+![Platform](https://img.shields.io/badge/Platform-Android-green)
 ![Testing](https://img.shields.io/badge/Testing-Exploratory-blue)
-![Findings](https://img.shields.io/badge/Defects%20Documented-12-orange)
+![Findings](https://img.shields.io/badge/Findings-12-orange)
+![Type](https://img.shields.io/badge/Type-Manual%20Testing-purple)
 
-## About the Project
+---
 
-RoomShift is an Android puzzle game developed by Raglic.
+## 📌 About the Project
 
-I got the opportunity to participate in a structured testing exercise for the game, where I explored its gameplay, settings, UI interactions, daily challenges and other features.
+**RoomShift** is an Android puzzle game developed by **Raglic**.
 
-The objective was to identify unexpected behaviour, investigate application functionality and document defects with supporting evidence.
+I participated in a structured testing exercise shared by Raglic to explore the game, investigate its functionality, identify unexpected behaviour, and document testing findings.
 
-## Testing Environment
+The exercise involved exploring gameplay, application features, user interactions, and different scenarios that could affect the player experience.
+
+This repository documents my hands-on mobile game testing experience and the findings I recorded during the exercise.
+
+## 🎯 Testing Objectives
+
+- Explore gameplay mechanics and level progression.
+- Identify unexpected application behaviour.
+- Evaluate UI interactions and navigation.
+- Investigate application functionality across different features.
+- Document reproducible findings with supporting evidence.
+- Identify opportunities to improve the user experience.
+
+## 🔍 Testing Scope
+
+The testing covered the following areas:
+
+| Area | Testing Activities |
+|---|---|
+| Gameplay | Level progression, game mechanics and interactions |
+| User Interface | UI elements, navigation and screen behaviour |
+| Audio | Sound behaviour and audio-related scenarios |
+| Performance | Observed performance and responsiveness |
+| Application Lifecycle | Application state and lifecycle behaviour |
+| Settings | Settings and available configurations |
+| Daily Puzzle | Daily challenge functionality |
+| Store | Store interface and interactions (no real purchases) |
+
+The exercise included playing the first 30 levels and exploring the additional application features.
+
+## 🧪 Testing Approach
+
+**Exploratory Manual Testing**
+
+Rather than relying only on predefined test cases, I explored the application through different user interactions and scenarios.
+
+My approach included:
+
+1. Understanding the application's functionality.
+2. Exploring gameplay and application features.
+3. Trying different interaction scenarios.
+4. Observing unexpected behaviour.
+5. Documenting reproducible findings.
+6. Recording expected versus actual behaviour.
+7. Attaching supporting screenshots and evidence.
+
+## 📊 Testing Results
+
+**12 testing findings documented.**
+
+The findings cover different areas of the application, including:
+
+- Gameplay behaviour
+- UI and interaction issues
+- Audio-related behaviour
+- Performance observations
+- Application lifecycle behaviour
+
+The complete report contains the individual findings, reproduction steps, expected and actual results, severity classifications, and supporting evidence.
+
+## 📄 Complete Testing Report
+
+The original PDF report is hosted on Google Drive.
+
+**[📥 View Complete RoomShift Testing Report](https://drive.google.com/file/d/1LXuZNoqDvbO95D0qB6Kjd9V6v_bgwZRp/view?usp=sharing)**
+
+The document contains the findings and evidence collected during the testing exercise. The original report has been preserved without modification.
+
+## 📱 Application Details
 
 | Parameter | Details |
 |---|---|
 | Application | RoomShift |
 | Developer | Raglic |
 | Platform | Android |
-| Device | OPPO F31 5G |
-| Android Version | Android 16 |
-| OS | ColorOS 16.0.5 |
-| Testing Type | Manual / Exploratory |
+| Category | Puzzle Game |
+| Testing Type | Exploratory Manual Testing |
+| Findings Documented | 12 |
 
-## Testing Coverage
+**[🎮 View RoomShift on Google Play](https://play.google.com/store/apps/details?id=in.raglic.roomshift)**
 
-- Gameplay and level progression
-- Audio and sound settings
-- UI and visual consistency
-- Daily challenges
-- Application lifecycle
-- Performance observations
-- In-game currency and rewards
+## 💡 Key Takeaways
 
-## Testing Results
+This experience helped me gain practical exposure to:
 
-**12 defects documented in the original testing report.**
+- Exploratory testing of Android applications.
+- Identifying unexpected application behaviour.
+- Writing structured bug reports.
+- Documenting reproduction steps.
+- Evaluating user experience.
+- Investigating application behaviour beyond the happy path.
 
-The findings covered:
+It reinforced an important lesson: testing isn't just about checking whether an application works. It's about understanding how it behaves when users interact with it in different ways.
 
-- Audio behaviour inconsistencies
-- Gameplay and UI issues
-- Visual and layout defects
-- Daily challenge functionality
-- Application background behaviour
-- Performance observations
-- Potential game-economy loopholes
+## 👨‍💻 About Me
 
-## Testing Approach
+I'm a software testing enthusiast interested in application quality, automation, programming, and infrastructure.
 
-I explored different application features and interactions, observed unexpected behaviour, compared actual results against expected behaviour and documented the findings.
+I enjoy exploring applications, investigating unexpected behaviour, and turning observations into actionable testing documentation.
 
-Each reported issue included relevant reproduction information, expected and actual results, severity classification and supporting evidence where available.
+**Connect with me:**
 
-## Original Testing Report
-
-The original report contains the complete documentation and supporting evidence.
-
-**Report:** [Add approved Google Drive link here]
-
-## Key Learnings
-
-- Exploratory testing of Android applications
-- Identifying unexpected gameplay behaviour
-- Testing application lifecycle scenarios
-- Investigating audio and UI inconsistencies
-- Evaluating game progression and reward mechanics
-- Writing structured bug reports
-
-## Acknowledgement
-
-Testing opportunity provided by **Raglic** for its Android game, RoomShift.
-
-This is an independent portfolio case study documenting my personal testing experience. It does not imply employment, endorsement or affiliation with Raglic.
+- GitHub: [@rony-codes](https://github.com/rony-codes)
+- LinkedIn: [Rohan Kumar](https://www.linkedin.com/in/rohan-kumar-70b8b2255/)
+- X: [@Rohan_kumar26](https://x.com/Rohan_kumar26)
 
 ---
 
-**Tester:** Rohan Kumar
-
-**Connect:** [LinkedIn](https://www.linkedin.com/in/rohan-kumar-70b8b2255/) | [GitHub](https://github.com/rony-codes)
+*This repository is a personal portfolio documenting my participation and testing work. It is not an official Raglic QA report or an endorsement by the developer.*
