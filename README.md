@@ -4,8 +4,8 @@
 
 ![Platform](https://img.shields.io/badge/Platform-Android-green)
 ![Testing](https://img.shields.io/badge/Testing-Exploratory-blue)
-![Findings](https://img.shields.io/badge/Findings-12-orange)
-![Type](https://img.shields.io/badge/Type-Manual%20Testing-purple)
+![Findings](https://img.shields.io/badge/Findings-12-blue)
+![Type](https://img.shields.io/badge/Testing-Exploratory-green)
 
 ---
 
